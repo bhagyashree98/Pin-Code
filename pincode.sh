@@ -1,8 +1,8 @@
 #!/bin/bash -x
 
 echo "Enter 6 digit pincode"
-pin="A400088";
-pinpat="^[0-9]{6}";
+pin="400088B";
+pinpat="^[0-9]{6}$";
 read pin
 if `[[ $pin =~ $pinpat ]]`
 then
